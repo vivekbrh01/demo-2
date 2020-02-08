@@ -1,0 +1,63 @@
+body {
+    line-height: 1.7;
+    font-family: 'Lato',sans-serif;
+    padding: 32px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.padding{
+    padding: 80px 0;
+}
+.padding-tb {
+    padding: 32px 0;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+// Button
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    padding: 12px 32px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    @media screen and (max-width:768px) {
+        
+        
+    }
+}
+.btn:hover {
+    transform: translateY(3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .4);
+}
+.btn:active {
+    transform: translateY(-1px);
+}
+// Destination
+.bg-color {
+    // height: 80vh;
+    background-image: linear-gradient(to right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+}
+
+.destination-item:hover {
+    transform: scale(1.05);
+    // box-shadow: 6px 4px 12px 0px #000000;
+    .heading-1-2 {
+        color: red;
+    }
+}
